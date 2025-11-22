@@ -58,14 +58,19 @@ cmake --build .
 Using CLion default build directory
 cmake -S . -B cmake-build-debug
 cmake --build cmake-build-debug
+```
 
 Basic run (2 runs by default)
+```
 ./TP2_IIA <input_file>
+```
 
 Specify number of runs
+```
 ./TP2_IIA <input_file> <num_runs>
 Example:
 ./TP2_IIA file1.txt 10
+```
 ```
 ⚙️ Algorithm Parameters
 
